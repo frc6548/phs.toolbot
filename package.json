@@ -1,0 +1,17 @@
+{
+  "name": "phstoolbot",
+  "version": "1.0.0",
+  "description": "PHS Rambots Discord management bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "sharp": "^0.34.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
